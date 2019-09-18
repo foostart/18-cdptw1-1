@@ -1,0 +1,33 @@
+.type-17 {
+  background-image: url("../images/modun103.jpg");
+  height: 150px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #eeeeee;
+}
+.type-17 .herder .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 60px;
+  font-size: 26px;
+}
+.type-17 .herder .b-breadcrumbs ul li {
+  float: none;
+  display: inline-block;
+  color: #888888;
+}
+.type-17 .herder .b-breadcrumbs ul li a {
+  display: inline-block;
+  vertical-align: middle;
+  color: #444444;
+  text-transform: uppercase;
+  padding-bottom: 0;
+  position: relative;
+}
+.type-17 .herder .pull-right {
+  margin: 58px 0;
+}
+@media screen and (max-width: 480px) {
+  .type-17 .herder .title {
+    font-size: 16px;
+  }
+}

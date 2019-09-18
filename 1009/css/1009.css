@@ -1,0 +1,169 @@
+.type-19 .out {
+  color: #888888;
+  font-size: 12px;
+}
+.type-19 .product-price {
+  margin-bottom: 30px;
+}
+.type-19 .product-price .spinner {
+  width: 20%;
+  margin-top: 30px;
+}
+.type-19 .product-price .spinner input {
+  text-align: right;
+}
+.type-19 .product-price .spinner .form-control {
+  border-radius: 0;
+}
+.type-19 .product-price .spinner btn {
+  border-radius: 0;
+}
+.type-19 .product-price .spinner .input-group-btn-vertical {
+  position: relative;
+  white-space: nowrap;
+  width: 1%;
+  vertical-align: middle;
+  display: table-cell;
+}
+.type-19 .product-price .spinner .input-group-btn-vertical .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  padding: 8px;
+  margin-left: -1px;
+  position: relative;
+  border-radius: 0;
+  background: #eeeeee;
+}
+.type-19 .product-price .spinner .input-group-btn-vertical .btn:last-child {
+  margin-top: -2px;
+}
+.type-19 .product-price .spinner .input-group-btn-vertical i {
+  position: absolute;
+  top: 0;
+  left: 4px;
+}
+.type-19 .product-price .woocommerce-Price {
+  font-size: 14px;
+  font-weight: normal;
+  color: #888888;
+  text-decoration: line-through;
+  padding-left: 5px;
+}
+.type-19 .product-price .woocommerce-Price1 {
+  color: #E76565;
+  font-size: 22px;
+  font-weight: bold;
+}
+.type-19 .product-price .woocommerce-Price1 .woocommerce1 {
+  color: #e24545;
+  font-size: 22px;
+  font-weight: bold;
+}
+.type-19 .product-price .ins {
+  position: relative;
+  float: right;
+  top: 5px;
+  color: #428D00;
+}
+.type-19 .product-price .fa1 a {
+  color: #000;
+  transition: color ease 0.5s;
+  text-decoration: none;
+}
+.type-19 .product-price .fa1 a:hover {
+  color: #23527c;
+}
+.type-19 .product-price .fa1 .fa {
+  color: #888888;
+}
+.type-19 .product-price .fa1 .produt {
+  font-size: 26px;
+}
+.type-19 .product-price .fa1 .produt .produt1 {
+  font-size: 15px;
+  display: inline-block;
+  font-weight: bold;
+}
+.type-19 .product-price .fa1 .produt .duongvien {
+  border-top: 3px solid #e24545;
+  width: 5%;
+}
+.type-19 .product-price .fa1 .bnt-add .fa-heart-o {
+  border: 1px solid #EEEEEE;
+  padding: 21px;
+  color: #5A5A5A;
+  margin-top: 30px;
+}
+.type-19 .product-price .fa1 .bnt-add .fa-heart-o:hover {
+  background: #E24545;
+  color: #fff;
+  transition: background ease 0.5s;
+}
+.type-19 .product-price .fa1 .bnt-add .btn-cart-color2 {
+  border-radius: 0;
+  height: 57px;
+  border: 2px solid #e24545;
+  background: #e24545;
+  color: #fff;
+  width: 70%;
+  letter-spacing: 4px;
+  font-size: 13px;
+  margin-left: 10px;
+}
+.type-19 .product-price .fa1 .bnt-add .btn-cart-color2:hover {
+  background: #fff;
+  color: #333;
+  transition: background ease 0.5s;
+}
+.type-19 .product-price .fa1 .edd-to {
+  margin-top: 35px;
+  color: #5F5F5F;
+}
+.type-19 .product-price .fa1 .tags-list {
+  margin-left: -40px;
+}
+.type-19 .product-price .fa1 .tags-list  a {
+  text-decoration: none;
+  padding: 2px;
+  color: #686868;
+}
+.type-19 .product-price .fa1 .tags-list  a:hover {
+  color: #23527c;
+  cursor: pointer;
+}
+.type-19 .product-price .fa1 .tags-list ul li {
+  float: left;
+  list-style: none;
+}
+.type-19 .product-price .fa1 .social-list .fa-facebook:hover {
+  background: #e24545;
+}
+.type-19 .product-price .fa1 .social-list .fa-twitter:hover {
+  background: #e24545;
+}
+.type-19 .product-price .fa1 .social-list .fa-google-plus:hover {
+  background: #e24545;
+}
+.type-19 .product-price .fa1 .social-list .fa-pinterest-p:hover {
+  background: #e24545;
+}
+.type-19 .product-price .fa1 .social-list .fa-google-plus,
+.type-19 .product-price .fa1 .social-list .fa-pinterest-p,
+.type-19 .product-price .fa1 .social-list .fa-facebook,
+.type-19 .product-price .fa1 .social-list .fa-twitter {
+  border: 1px solid #ECECEC;
+  padding: 9px;
+  width: 8%;
+  text-align: center;
+}
+.type-19 .product-price .fa1 .social-list .fa-google-plus,
+.type-19 .product-price .fa1 .social-list .fa-pinterest-p,
+.type-19 .product-price .fa1 .social-list .fa-facebook,
+.type-19 .product-price .fa1 .social-list .fa-twitter {
+  border: 1px solid #ECECEC;
+  padding: 12px;
+  width: 8%;
+  text-align: center;
+}
