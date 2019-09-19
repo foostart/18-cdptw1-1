@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     $('.btn-vertical-slider').on('click', function () {
         
         if ($(this).attr('data-slide') == 'next') {
