@@ -1,8 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <title>Document</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
 
     <?php
     if (!class_exists('lessc')) {
@@ -19,7 +20,7 @@
 
 
 <h2 class="tach"><b>BEST SELLERS</h2>
-<hr  width="15%" align="left" color="red"/> 
+<hr  width="15%" text-align="left" color="red"/> 
 <div class="module-8">
 <div class="slider-nav">
       <a class="slider-prev best_selling_products-prev"><i class="fa fa-chevron-left"></i></a>
@@ -31,9 +32,9 @@
 
 
         <div class="grid_1_of_4 images_1_of_4">
-           <a href="preview.html"><img src="http://pro-theme.com/wordpress/ismile/wp-content/uploads/2015/12/81lZPI2hmoL._SX522_-470x450.jpg" alt=""></a>
+           <a href="preview.html"><img src="./images/815gN9Ip-mL._SX522_56-1-470x450.jpg" alt=""></a>
            <div class="overlay">
-               <a href="preview.html"><img src="http://pro-theme.com/wordpress/ismile/wp-content/uploads/2015/12/815gN9Ip-mL._SX522_-470x450.jpg"></a>
+               <a href="preview.html"><img src="./images/815gN9Ip-mL._SX522_56-1-470x450.jpg"></a>
             </div>
 
            <h2> <b>BLU VIVO 5 SMARTPHONE</b> </h2>
