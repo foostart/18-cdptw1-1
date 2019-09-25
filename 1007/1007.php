@@ -15,8 +15,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/bootstrap.min.js"/>
+    <link rel="stylesheet" type="text/css" href="js/jquery.min.js"/>
 
 </head>
 
