@@ -14,7 +14,6 @@
     }
     $less = new lessc;
     $less->compileFile('less/719.less', 'css/719.css');
-    
 ?>
 <!DOCTYPE html>
 <html style="background-color: #f3f3f4;">
@@ -22,16 +21,15 @@
         <title>Aurum - Fashion</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/719.css" rel="stylesheet" type="text/css" />
-        <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/scripts.js"></script>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/719.css" rel="stylesheet" type="text/css" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
     </head>
     <body>
        <?php include $dir_block.'/719-content.php'; ?>
-        
     </div>
 </body>
 </html>

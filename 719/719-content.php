@@ -12,12 +12,10 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <na>
-                        <li>
-                            <a href="#">Login</a> or <a href="#">Register</a>
-                            <span>|</span> <span>September 28, 2016</span>
-                        </li>
-                    </na>
+                    <li>
+                        <a href="#">Login</a> or <a href="#">Register</a>
+                        <span>|</span> <span>September 28, 2016</span>
+                    </li>
                 </div>
                 <div class="col-md-6 halo">                       
                     <ul>
@@ -47,11 +45,11 @@ $url_path = str_replace('\\', '/', $url_path);
                     <span class="icon-bar"></span>
                 </button>
                 <a class="brand" style="margin: 0; float: none;" href="#">
-                    <img width="100px" class="img-responsive" src="<?php echo $url_path ?>/img/logo.png" /></a>
+                    <img width="100px" class="img-responsive" src="img/logo.png" /></a>
             </div>
             <div class="navbar-header">                        
                 <a class="brand" style="margin: 0; float: none;" href="#">
-                    <img width="100px" class="img-responsive" src="<?php echo $url_path ?>/img/logo.png" /></a>
+                    <img width="100px" class="img-responsive" src="img/logo.png" /></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -61,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul class="dropdown-menu mega-dropdown-menu">
                             <li class="col-sm-2">
                                 <ul>
-                                    <li><img class="img-responsive" src="<?php echo $url_path ?>/img/uploads/2014/12/four.png"</li>
+                                    <li><img class="img-responsive" src="img/uploads/2014/12/four.png"></li>
                                     <li class="dropdown-header">SHOP VARIANTS</li>
                                     <li><a href="#">Shop Full Width</a></li>
                                     <li><a href="#">Shop Sidebar Right</a></li>
@@ -70,8 +68,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </ul>
                             </li>
                             <li class="col-sm-2">
-                                <ul
-                                    <li><img class="img-responsive" src="<?php echo $url_path ?>/img/uploads/2014/12/three.png"</li>
+                                <ul>
+                                    <li><img class="img-responsive" src="img/uploads/2014/12/three.png"></li>
                                     <li class="dropdown-header">Plus</li>
                                     <li><a href="#">Navbar Inverse</a></li>
                                     <li><a href="#">Pull Right Elements</a></li>
@@ -81,7 +79,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="col-sm-2">
                                 <ul>
-                                    <li><img class="img-responsive" src="<?php echo $url_path ?>/img/uploads/2014/12/two.png"</li>
+                                    <li><img class="img-responsive" src="img/uploads/2014/12/two.png"></li>
                                     <li class="dropdown-header">Much more</li>
                                     <li><a href="#">Easy to Customize</a></li>
                                     <li><a href="#">Calls to action</a></li>
@@ -91,7 +89,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="col-sm-2">
                                 <ul>
-                                    <li><img class="img-responsive" src="<?php echo $url_path ?>/img/uploads/2014/12/one.png"</li>
+                                    <li><img class="img-responsive" src="img/uploads/2014/12/one.png"></li>
                                     <li class="dropdown-header">Much more</li>
                                     <li><a href="#">Easy to Customize</a></li>
                                     <li><a href="#">Calls to action</a></li>
@@ -101,7 +99,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="col-sm-2">
                                 <ul>
-                                    <li><a href="#"><img class="img-responsive" src="<?php echo $url_path ?>/img/blackfriday.png"></a></li>
+                                    <li><a href="#"><img class="img-responsive" src="img/blackfriday.png"></a></li>
                                 </ul>
                             </li>
                         </ul>				
