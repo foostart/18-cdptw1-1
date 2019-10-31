@@ -55,8 +55,8 @@
                                                                 <strong>SAMSUNG GALAXY S5</strong>
                                                                 <br>
                                                                 <div class="rating">
-<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-</div>
+                                                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                                                </div>
                                                             </div>
                                                             <div class="woocommerce-Price1">
                                                                 <a class="money">£875.00
@@ -74,8 +74,8 @@
                                                                 <strong>APPLE IPHONE 6S PLUS </strong>
                                                                 <br>
                                                                 <div class="rating">
-<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-</div>
+                                                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                                                </div>
                                                             </div>
                                                             <div class="woocommerce-Price1">
                                                                 <del><a class="money">£875.00</a></del>
@@ -113,8 +113,8 @@
                                                                 <strong>SAMSUNG GALAXY S5</strong>
                                                                 <br>
                                                                 <div class="rating">
-<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-</div>
+                                                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                                                </div>
                                                             </div>
                                                             <div class="woocommerce-Price1">
                                                                 <a class="money">£875.00
@@ -132,8 +132,8 @@
                                                                 <strong>APPLE IPHONE 6S PLUS </strong>
                                                                 <br>
                                                                 <div class="rating">
-<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-</div>
+                                                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                                                </div>
                                                             </div>
                                                             <div class="woocommerce-Price1">
                                                                 <del><a class="money">£875.00</a></del>
@@ -171,8 +171,8 @@
                                                                 <strong>SAMSUNG GALAXY S5</strong>
                                                                 <br>
                                                                 <div class="rating">
-<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-</div>
+                                                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                                                </div>
                                                             </div>
                                                             <div class="woocommerce-Price1">
                                                                 <a class="money">£875.00
@@ -190,8 +190,8 @@
                                                                 <strong>APPLE IPHONE 6S PLUS </strong>
                                                                 <br>
                                                                 <div class="rating">
-<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-</div>
+                                                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                                                </div>
                                                             </div>
                                                             <div class="woocommerce-Price1">
                                                                 <del><a class="money">£875.00</a></del>
