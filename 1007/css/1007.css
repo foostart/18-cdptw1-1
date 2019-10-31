@@ -77,34 +77,50 @@
   color: #222;
   background: none;
 }
-.type-1007 .mega-dropdown {
-  position: static !important;
+.type-1007 .navbar-toggle {
+  margin-top: -70px;
+  margin-right: 50px;
 }
-.type-1007 .mega-dropdown-menu {
-  padding: 20px 0px;
-  width: 100%;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
-.type-1007 .mega-dropdown-menu > li > ul {
-  padding: 0;
-  margin: 0;
-}
-.type-1007 .mega-dropdown-menu > li > ul > li {
-  list-style: none;
-}
-.type-1007 .mega-dropdown-menu > li > ul > li > a {
-  display: block;
-  color: #222;
-  padding: 3px 5px;
-}
-.type-1007 .mega-dropdown-menu > li ul > li > a:hover,
-.type-1007 .mega-dropdown-menu > li ul > li > a:focus {
+.type-1007 .btn {
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
   text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
 }
-.type-1007 .mega-dropdown-menu .dropdown-header {
-  font-size: 18px;
-  color: #ff3546;
-  padding: 5px 60px 5px 5px;
-  line-height: 30px;
+.type-1007 .btn-1 {
+  font-weight: 100;
+  transition: all .25s;
+}
+.type-1007 .btn-1 svg {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.type-1007 .btn-1 rect {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+  transition-delay: none;
+}
+.type-1007 .btn-1:hover rect {
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  transition: all 1.35s cubic-bezier(0.19,1,0.22,1);
+}
+.type-1007 .btn-1.color-green:hover {
+  color: green;
+}
+.type-1007 .btn-1.color-green:hover rect {
+  stroke: green;
 }

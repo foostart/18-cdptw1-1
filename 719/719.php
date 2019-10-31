@@ -17,7 +17,7 @@
 <!DOCTYPE html>
 <html style="background-color: #f3f3f4;">
     <head>
-        <title>Aurum - Fashion</title>
+        <title>Module 719</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />

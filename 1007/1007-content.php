@@ -1,14 +1,11 @@
 <div class="type-1007">
     <div class="container">
-        <!--HERDER-->
         <div class="herder">
             <div class="row">
                 <div class="col-md-7">
-                    <!--TITLE--->
                     <h3 class="title">Apple iPhone 6s Plus</h3>
                 </div>
                 <div class="col-md-5">
-                    <!--NAV-->
                     <nav class="navbar navbar-inverse navbar-default affix" data-spy="affix" data-offset-top="50">
                         <div class="container">
                             <div class="navbar-header">
@@ -21,11 +18,55 @@
                             </div>
                             <div id="navbar" class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="#">HOME &gt;</a></li>
-                                    <li class="dropdown mega-dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">ACCESSORIES &gt;</a>
+                                    <li>
+                                        <div class="block">
+                                            <a href="#" class="btn btn-1 color-green">
+                                                <svg>
+                                                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                                </svg>
+                                                HOME
+                                            </a>
+                                        </div>
                                     </li>
-                                    <li><a href="#page" style="color: gray;">APPLE IPHONE 6 PLUS</a>
+                                    <li>
+                                        <div class="block">
+                                            <a href="#" class="btn btn-1 color-green">
+                                                <svg>
+                                                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                                </svg>
+                                                SHOPE
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block">
+                                            <a href="#" class="btn btn-1 color-green">
+                                                <svg>
+                                                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                                </svg>
+                                                PAGE
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block">
+                                            <a href="#" class="btn btn-1 color-green">
+                                                <svg>
+                                                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                                </svg>
+                                                ACCESSORIES
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block">
+                                            <a href="#" class="btn btn-1 color-green">
+                                                <svg>
+                                                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                                </svg>
+                                                APPLE IPHONE 6 PLUS
+                                            </a>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -34,6 +75,5 @@
                 </div>
             </div>
         </div>
-        <!--END HERDER-->
     </div>
 </div>

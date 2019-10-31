@@ -17,13 +17,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Module 1007</title>
     <meta charset="UTF-8">
-    <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/1007.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="js/bootstrap.min.js"/>
-    <link rel="stylesheet" type="text/css" href="js/jquery.min.js"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
     <?php include $dir_block.'/1007-content.php'; ?>
