@@ -1,12 +1,3 @@
-<?php
-$url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-719">
     <div id="topheader">
         <div class="container">
@@ -59,7 +50,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul class="dropdown-menu mega-dropdown-menu">
                             <li class="col-sm-2">
                                 <ul>
-                                    <li><img class="img-responsive" src="img/uploads/2014/12/four.png"></li>
+                                    <li><img class="img-responsive" src="img/four.png"></li>
                                     <li class="dropdown-header">SHOP VARIANTS</li>
                                     <li><a href="#">Shop Full Width</a></li>
                                     <li><a href="#">Shop Sidebar Right</a></li>
@@ -69,7 +60,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="col-sm-2">
                                 <ul>
-                                    <li><img class="img-responsive" src="img/uploads/2014/12/three.png"></li>
+                                    <li><img class="img-responsive" src="img/three.png"></li>
                                     <li class="dropdown-header">Plus</li>
                                     <li><a href="#">Navbar Inverse</a></li>
                                     <li><a href="#">Pull Right Elements</a></li>
@@ -79,7 +70,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="col-sm-2">
                                 <ul>
-                                    <li><img class="img-responsive" src="img/uploads/2014/12/two.png"></li>
+                                    <li><img class="img-responsive" src="img/two.png"></li>
                                     <li class="dropdown-header">Much more</li>
                                     <li><a href="#">Easy to Customize</a></li>
                                     <li><a href="#">Calls to action</a></li>
@@ -89,7 +80,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="col-sm-2">
                                 <ul>
-                                    <li><img class="img-responsive" src="img/uploads/2014/12/one.png"></li>
+                                    <li><img class="img-responsive" src="img/one.png"></li>
                                     <li class="dropdown-header">Much more</li>
                                     <li><a href="#">Easy to Customize</a></li>
                                     <li><a href="#">Calls to action</a></li>
@@ -104,10 +95,156 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                         </ul>				
                     </li>
-                    <li><a href="#page">PAGES</a>
+                    <li class="dropdown mega-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</a>
+                    <ul class="dropdown-menu mega-dropdown-menu">
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/four.png"></li>
+                                    <li class="dropdown-header">SHOP VARIANTS</li>
+                                    <li><a href="#">Shop Full Width</a></li>
+                                    <li><a href="#">Shop Sidebar Right</a></li>
+                                    <li><a href="#">Shop Sidebar Left</a></li>
+                                    <li><a href="#">Category Listing</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/three.png"></li>
+                                    <li class="dropdown-header">Plus</li>
+                                    <li><a href="#">Navbar Inverse</a></li>
+                                    <li><a href="#">Pull Right Elements</a></li>
+                                    <li><a href="#">Coloured Headers</a></li>                            
+                                    <li><a href="#">Primary Buttons & Default</a></li>							
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/two.png"></li>
+                                    <li class="dropdown-header">Much more</li>
+                                    <li><a href="#">Easy to Customize</a></li>
+                                    <li><a href="#">Calls to action</a></li>
+                                    <li><a href="#">Custom Fonts</a></li>
+                                    <li><a href="#">Slide down on Hover</a></li>                         
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/one.png"></li>
+                                    <li class="dropdown-header">Much more</li>
+                                    <li><a href="#">Easy to Customize</a></li>
+                                    <li><a href="#">Calls to action</a></li>
+                                    <li><a href="#">Custom Fonts</a></li>
+                                    <li><a href="#">Slide down on Hover</a></li>                         
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><a href="#"><img class="img-responsive" src="img/blackfriday.png"></a></li>
+                                </ul>
+                            </li>
+                        </ul>		
                     </li>
-                    <li><a href="#blogs">BLOGS</a></li>
-                    <li><a href="#shortcodes">SHORTCODES</a></li>
+                    <li class="dropdown mega-dropdown">
+                        <a href="#blogs">BLOGS</a>
+                        <ul class="dropdown-menu mega-dropdown-menu">
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/four.png"></li>
+                                    <li class="dropdown-header">SHOP VARIANTS</li>
+                                    <li><a href="#">Shop Full Width</a></li>
+                                    <li><a href="#">Shop Sidebar Right</a></li>
+                                    <li><a href="#">Shop Sidebar Left</a></li>
+                                    <li><a href="#">Category Listing</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/three.png"></li>
+                                    <li class="dropdown-header">Plus</li>
+                                    <li><a href="#">Navbar Inverse</a></li>
+                                    <li><a href="#">Pull Right Elements</a></li>
+                                    <li><a href="#">Coloured Headers</a></li>                            
+                                    <li><a href="#">Primary Buttons & Default</a></li>							
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/two.png"></li>
+                                    <li class="dropdown-header">Much more</li>
+                                    <li><a href="#">Easy to Customize</a></li>
+                                    <li><a href="#">Calls to action</a></li>
+                                    <li><a href="#">Custom Fonts</a></li>
+                                    <li><a href="#">Slide down on Hover</a></li>                         
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/one.png"></li>
+                                    <li class="dropdown-header">Much more</li>
+                                    <li><a href="#">Easy to Customize</a></li>
+                                    <li><a href="#">Calls to action</a></li>
+                                    <li><a href="#">Custom Fonts</a></li>
+                                    <li><a href="#">Slide down on Hover</a></li>                         
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><a href="#"><img class="img-responsive" src="img/blackfriday.png"></a></li>
+                                </ul>
+                            </li>
+                        </ul>		
+                    </li>
+                    <li class="dropdown mega-dropdown">
+                        <a href="#shortcodes">SHORTCODES</a>
+                        <ul class="dropdown-menu mega-dropdown-menu">
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/four.png"></li>
+                                    <li class="dropdown-header">SHOP VARIANTS</li>
+                                    <li><a href="#">Shop Full Width</a></li>
+                                    <li><a href="#">Shop Sidebar Right</a></li>
+                                    <li><a href="#">Shop Sidebar Left</a></li>
+                                    <li><a href="#">Category Listing</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/three.png"></li>
+                                    <li class="dropdown-header">Plus</li>
+                                    <li><a href="#">Navbar Inverse</a></li>
+                                    <li><a href="#">Pull Right Elements</a></li>
+                                    <li><a href="#">Coloured Headers</a></li>                            
+                                    <li><a href="#">Primary Buttons & Default</a></li>							
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/two.png"></li>
+                                    <li class="dropdown-header">Much more</li>
+                                    <li><a href="#">Easy to Customize</a></li>
+                                    <li><a href="#">Calls to action</a></li>
+                                    <li><a href="#">Custom Fonts</a></li>
+                                    <li><a href="#">Slide down on Hover</a></li>                         
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><img class="img-responsive" src="img/one.png"></li>
+                                    <li class="dropdown-header">Much more</li>
+                                    <li><a href="#">Easy to Customize</a></li>
+                                    <li><a href="#">Calls to action</a></li>
+                                    <li><a href="#">Custom Fonts</a></li>
+                                    <li><a href="#">Slide down on Hover</a></li>                         
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><a href="#"><img class="img-responsive" src="img/blackfriday.png"></a></li>
+                                </ul>
+                            </li>
+                        </ul>		
+                    </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href=""><i style="font-size:24px" class="fa fa-search"></i></a></li>

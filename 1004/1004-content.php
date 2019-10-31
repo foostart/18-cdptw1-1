@@ -1,51 +1,47 @@
-<?php
-$url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
-?>
-<h2 class="tach"><b>BEST SELLERS</h2>
-<hr width="15%" text-align="left" color="red" />
-    <div class="module-8">
-        <div class="slider-nav">
-            <a class="slider-prev best_selling_products-prev"><i class="fa fa-chevron-left"></i></a>
-            <span class="nav-divider"></span>
-            <a class="slider-next best_selling_products-next"><i class="fa fa-chevron-right"></i></a>
-        </div>
-        <div class="section group">
-            <div class="grid_1_of_4 images_1_of_4">
-                <div class="overlay">
-                    <a href="preview.html"><img src="./images/815gN9Ip-mL._SX522_56-1-470x450.jpg"></a>
+<div class="type-1004">
+    <div class="container">
+        <h2 class="tach"><b>BEST SELLERS</h2>
+        <div class="line"></div>
+        <div class="module-8">
+            <div class="slider-nav">
+                <a class="slider-prev best_selling_products-prev"><i class="fa fa-chevron-left"></i></a>
+                <span class="nav-divider"></span>
+                <a class="slider-next best_selling_products-next"><i class="fa fa-chevron-right"></i></a>
+            </div>
+            <div class="section group">
+                <div class="grid_1_of_4 images_1_of_4">
+                    <div class="overlay">
+                        <a href="#"><img src="./images/815gN9Ip-mL._SX522_56-1-470x450.jpg"></a>
+                    </div>
+                    <h2> <b>BLU VIVO 5 SMARTPHONE</b> </h2>
+                    <p><span class="price">$875.00</span></p>
+                    <div class="clear"></div>
                 </div>
-                <h2> <b>BLU VIVO 5 SMARTPHONE</b> </h2>
-                <p><span class="price">$875.00</span></p>
-                <div class="clear"></div>
-            </div>
-            <div class="grid_1_of_4 images_1_of_4">
-                <div class="overlay">
-                    <a href="preview.html"><img src="./images/815gN9Ip-mL._SX522_-470x450.jpg"></a>
+                <div class="grid_1_of_4 images_1_of_4">
+                    <div class="overlay">
+                        <a href="#"><img src="./images/815gN9Ip-mL._SX522_56-1-470x450.jpg"></a>
+                    </div>
+                    <h2> <b>BLU VIVO 5 SMARTPHONE</b> </h2>
+                    <p><span class="price">$875.00</span></p>
+                    <div class="clear"></div>
                 </div>
-                <h2> <b>APPLE IPHONE 6S PLUS</b> </h2>
-                <p><span class="g">$600.00</span><span class="price">$560.00</span></p>
-            <div class="clear"></div>
-        </div>
-        <div class="grid_1_of_4 images_1_of_4">
-            <div class="overlay">
-                <a href="preview.html"><img src="./images/815gN9Ip-mL._SX522_-470x450.jpg"></a>
+                <div class="grid_1_of_4 images_1_of_4">
+                    <div class="overlay">
+                        <a href="#"><img src="./images/815gN9Ip-mL._SX522_56-1-470x450.jpg"></a>
+                    </div>
+                    <h2> <b>BLU VIVO 5 SMARTPHONE</b> </h2>
+                    <p><span class="price">$875.00</span></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="grid_1_of_4 images_1_of_4">
+                    <div class="overlay">
+                        <a href="#"><img src="./images/815gN9Ip-mL._SX522_56-1-470x450.jpg"></a>
+                    </div>
+                    <h2> <b>BLU VIVO 5 SMARTPHONE</b> </h2>
+                    <p><span class="price">$875.00</span></p>
+                    <div class="clear"></div>
+                </div>
             </div>
-            <h2> <b>HUAWEI NEXUS 6P</b> </h2>
-            <p><span class="price">$865.00</span></p>
         </div>
-        <div class="clear"></div>
-        <div class="grid_1_of_4 images_1_of_4">
-             <div class="overlay">
-                <a href="preview.html"><img src="./images/815gN9Ip-mL._SX522_-470x450.jpg"></a>
-            </div>
-            <h2> <b>ORBIC SLIM</b> </h2>
-            <p><span class="g">$600.00</span><span class="price">$456.00</span></p>
-        </div>
-        <div class="clear"></div>
     </div>
+</div>

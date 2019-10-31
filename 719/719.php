@@ -1,5 +1,4 @@
 <?php
-
     $url_host = 'http://'.$_SERVER['HTTP_HOST'];
     $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
     $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
@@ -26,7 +25,7 @@
         <link href="css/719.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
+        <script src="js/719.js"></script>
     </head>
     <body>
        <?php include $dir_block.'/719-content.php'; ?>
